@@ -1,0 +1,7 @@
+signup_email: Chanchalastore04@gmail.com
+signup_name: Test
+signup_lastname: User
+signup_phone: 0812345678
+signup_password: TestPassword123
+signup_confirm_password: TestPassword123
+invalid_email: invalid-email
