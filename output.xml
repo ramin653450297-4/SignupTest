@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.5 on win32)" generated="2024-09-25T20:04:20.273936" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Signup" source="C:\Users\Acer\Documents\GitHub\SignupTest\tests\test_signup.robot">
+<test id="s1-t1" name="User Can Signup Successfully" line="5">
+<kw name="Open Future Skill Website">
+<msg time="2024-09-25T20:04:20.324337" level="FAIL">No keyword with name 'Open Future Skill Website' found.</msg>
+<status status="FAIL" start="2024-09-25T20:04:20.324337" elapsed="0.000000">No keyword with name 'Open Future Skill Website' found.</status>
+</kw>
+<kw name="Click Signup Button">
+<status status="NOT RUN" start="2024-09-25T20:04:20.324337" elapsed="0.000000"/>
+</kw>
+<kw name="Fill Signup Form">
+<status status="NOT RUN" start="2024-09-25T20:04:20.324337" elapsed="0.000000"/>
+</kw>
+<kw name="Submit Signup Form">
+<status status="NOT RUN" start="2024-09-25T20:04:20.325285" elapsed="0.000000"/>
+</kw>
+<kw name="Verify OTP Page">
+<status status="NOT RUN" start="2024-09-25T20:04:20.325285" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" start="2024-09-25T20:04:20.325285" elapsed="0.000000"/>
+</kw>
+<doc>ทดสอบการสมัครสมาชิก Future Skill</doc>
+<status status="FAIL" start="2024-09-25T20:04:20.322487" elapsed="0.002798">No keyword with name 'Open Future Skill Website' found.</status>
+</test>
+<status status="FAIL" start="2024-09-25T20:04:20.275937" elapsed="0.051797"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Signup">Test Signup</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-09-25T20:04:20.318911" level="ERROR">Error in file 'C:\Users\Acer\Documents\GitHub\SignupTest\tests\test_signup.robot' on line 2: Importing library '../pages/signup_page.robot' failed: ModuleNotFoundError: No module named '.'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Acer\Documents\GitHub\SignupTest
+  C:\Python312\python312.zip
+  C:\Python312\DLLs
+  C:\Python312\Lib
+  C:\Python312
+  C:\Users\Acer\AppData\Roaming\Python\Python312\site-packages
+  C:\Python312\Lib\site-packages</msg>
+</errors>
+</robot>
